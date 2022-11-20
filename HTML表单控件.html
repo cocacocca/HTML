@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://bing.com" method="post">
+        <p><label for="username">用户名：</label>
+            <input type="text" id="username" maxlength="5"></p><!--maxlength最大输入长度-->
+        <p><label for="password">密码：</label>
+            <input type="text" id="password"></p>
+        <p>
+            <label for="">性别:</label>
+            <input type="radio" name="sex" id="">男
+            <input type="radio" name="sex" id="">女
+            <input type="radio" name="sex" id="">保密
+        </p>
+        <p>
+            <label for="">个人爱好:</label>
+            <input type="checkbox" name="" id="">读书
+            <input type="checkbox" name="" id="">看电影
+            <input type="checkbox" name="" id="">玩游戏
+        </p>
+        
+        <!--按钮-->
+        <p><input type="submit" value="提交" ></p>
+        <p><input type="button" value="注册" ></p>
+        <p><input type="button" value="重置" ></p>
+    </form>
+    <!--action:表单学习提交地址   method:表单提交方法：post/get-->
+    <!--    
+        type类型绘制各种表单控件
+        type="text"：文本框
+        type="password"：密码框
+        type="button"：按钮
+        type="submit"：提交按钮
+        type="reset"：重置按钮
+        type="radio"：单选按钮
+        type="checkbox"：复选框
+        type="file"：文件上传
+        type="image"：图像按钮
+        type="hidden"：隐藏域
+        type="date"：日期
+        type="datetime"：日期时间
+        type="datetime-local"：本地日期时间
+        type="email"：电子邮件
+        type="month"：月份
+        type="number"：数字
+        type="range"：范围
+        
+        value：按钮上的文字,值
+
+
+    -->
+        <!--不常用的类型-->
+    <p><input type="number" name="" id=""></p>
+    <p><input type="file" name="" id=""></p>
+    <p><input type="color" name="" id=""></p>
+    <p><input type="date" name="" id=""></p>
+    <p><input type="datetime-local" name="" id=""></p>
+    <p><input type="email" name="" id=""></p>
+    <p><input type="month" name="" id=""></p>
+    <p><input type="range" name="" id=""></p>
+    <p><input type="search" name="" id=""></p>
+
+    <!--select下拉菜单-->
+    <select name="" id="">
+        <option value="">请选择年份</option>
+        <option value="">1990</option>
+        <option value="">2000</option>
+        <option value="">2010</option>
+    </select>
+    <br>
+    <!--文本区域-->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+
+</html>
